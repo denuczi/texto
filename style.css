@@ -104,7 +104,7 @@ table {
 table, th, td {
     border: 1px solid #231054;
     padding: 1em;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.493);
 }
 
 th {
