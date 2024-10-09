@@ -18,7 +18,16 @@ body {
     list-style-type: none;
     border-left: 4px solid blue;
 }
-
+.diagrama {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 70vw;
+    text-align: center;
+}
+.diagrama:hover{
+    box-shadow: none;
+}
 .container {
     width: 90%;
     max-width: 1200px;
