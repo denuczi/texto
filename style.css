@@ -160,3 +160,10 @@ button {
 img:hover{
     box-shadow: 0 0 5px #231054, 0 0 25px #231054, 0 0 50px #231054, 0 0 100px #231054, 0 0 200px #231054;
 }
+.cartas {
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
