@@ -8,6 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button id="modo-oscuro" class="boton-modo-oscuro">Modo oscuro</button>
+    <script>
+        // Modo oscuro 
+        const botonModoOscuro = document.getElementById('modo-oscuro');
+        const body = document.body;
+        
+        let modoOscuroActivado = false;
+        
+        botonModoOscuro.addEventListener('click', () => {
+            modoOscuroActivado = !modoOscuroActivado;
+            if (modoOscuroActivado) {
+            body.style.background = 'black';
+            botonModoOscuro.textContent = 'Desactivar modo oscuro';
+        } else {
+            body.style.background = '#38e';
+            botonModoOscuro.textContent = 'Activar modo oscuro';
+        }
+    });
+    </script>
+    
     <div class="container">
         <a href="https://drive.google.com/file/d/17dOd0CvonYxRfjGBfQjvMIdjYPxm7bLo/view"><h1>El Texto como Unidad Básica de Comunicación</h1></a>
         <div>
