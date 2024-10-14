@@ -15,7 +15,7 @@ body {
     background-color: #333;
     color: #fff;
     cursor: pointer;
-    font-size: 20px; 
+    font-size: 15px; 
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -35,14 +35,12 @@ body {
     transform: scale(0.95); 
 }
 .ul-color {
-    font-size: 20px;
     background: linear-gradient(to bottom, transparent,#FFFFFF, #FFFFFF);
     padding: 30px;
     border-radius: 10px;
     color: rgb(4, 11, 51);
 }
 .lista-1 {
-    font-size: 20px
     background-color: #008cff25;
     padding: 10px;
     border-radius: 10px;
@@ -84,7 +82,7 @@ a {
     text-decoration-color: #0000001a; 
 }
 p {
-    font-size: 20px;
+    font-size: 1.2em;
     line-height: 1.8;
     color: #ffffff;
 }
@@ -95,7 +93,7 @@ ul {
     color: #1b1414;
 }
 
-ul li { font-size: 20px;
+ul li {
     margin-bottom: 0.5em;
 }
 
@@ -118,7 +116,7 @@ h2 {
     border-radius: 10px;
     text-align: center;
     color: #FFCF79;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 1em;
     border-top: 4px solid rgba(13, 13, 61, 0.219);
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
@@ -136,7 +134,6 @@ table {
 }
 
 table, th, td {
-    font-size: 20px;
     border: 1px solid #231054;
     padding: 1em;
     background: rgba(255, 255, 255, 0.493);
@@ -221,7 +218,6 @@ img:hover{
     display: block; 
 }
 .examen a {
-    font-size: 20px;
     color: #fff; 
     text-decoration: none;
 }
