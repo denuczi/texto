@@ -15,7 +15,7 @@ body {
     background-color: #333;
     color: #fff;
     cursor: pointer;
-    font-size: 10px; 
+    font-size: 15px; 
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -35,6 +35,7 @@ body {
     transform: scale(0.95); 
 }
 .ul-color {
+    text-size: 20px;
     background: linear-gradient(to bottom, transparent,#FFFFFF, #FFFFFF);
     padding: 30px;
     border-radius: 10px;
