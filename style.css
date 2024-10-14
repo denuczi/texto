@@ -15,7 +15,7 @@ body {
     background-color: #333;
     color: #fff;
     cursor: pointer;
-    font-size: 15px; 
+    font-size: 20px; 
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -35,13 +35,14 @@ body {
     transform: scale(0.95); 
 }
 .ul-color {
-    text-size: 20px;
+    font-size: 20px;
     background: linear-gradient(to bottom, transparent,#FFFFFF, #FFFFFF);
     padding: 30px;
     border-radius: 10px;
     color: rgb(4, 11, 51);
 }
 .lista-1 {
+    font-size: 20px
     background-color: #008cff25;
     padding: 10px;
     border-radius: 10px;
@@ -94,7 +95,7 @@ ul {
     color: #1b1414;
 }
 
-ul li {
+ul li { font-size: 20px;
     margin-bottom: 0.5em;
 }
 
@@ -117,7 +118,7 @@ h2 {
     border-radius: 10px;
     text-align: center;
     color: #FFCF79;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-top: 1em;
     border-top: 4px solid rgba(13, 13, 61, 0.219);
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
@@ -135,6 +136,7 @@ table {
 }
 
 table, th, td {
+    font-size: 20px;
     border: 1px solid #231054;
     padding: 1em;
     background: rgba(255, 255, 255, 0.493);
