@@ -6,16 +6,16 @@ body {
     margin: 0;
 }
 .boton-modo-oscuro {
-    position: fixed;
+    position: absolute;
     top: 10px;
     right: 10px;
-    padding: 30px 30px;
+    padding: 5px;
     border: none;
     border-radius: 15px; 
     background-color: #333;
     color: #fff;
     cursor: pointer;
-    font-size: 12px; 
+    font-size: 10px; 
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -184,7 +184,7 @@ td {
         padding: 1.5em;
     }
 }
-button {
+.instagram {
     display: fixed;
     justify-content: center;
     align-items: center;
@@ -207,4 +207,20 @@ img:hover{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+}
+.examen {
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto; 
+    text-decoration: none;
+    background: #231054;
+    color: #fff; 
+    display: block; 
+}
+.examen a {
+    color: #fff; 
+    text-decoration: none;
+}
+.examen:hover {
+    box-shadow: 0 0 5px #231054, 0 0 25px #231054;
 }
