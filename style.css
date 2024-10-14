@@ -218,6 +218,7 @@ img:hover{
     display: block; 
 }
 .examen a {
+    font-size: 20px;
     color: #fff; 
     text-decoration: none;
 }
