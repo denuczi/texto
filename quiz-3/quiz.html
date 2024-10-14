@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Los Registros</h1>
+    <div class="question-count" id="questionCount"></div>
+    <div class="question-container">
+        <p class="question"></p>
+        <ul class="options"></ul>
+    </div>
+    <button id="nextButton" onclick="nextQuestion()">Siguiente</button>
+    <div class="results">
+        <h2>Resultados</h2>
+        <p class="result-summary" id="score"></p>
+        <div class="feedback" id="feedback"></div>
+        <div class="buttons">
+            <a href="quiz.html" onclick="retryQuiz()" class="button button-neon">Reintentar</a>
+            <a href="../index.html" class="button button-neon">Volver al inicio</a>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
