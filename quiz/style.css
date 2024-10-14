@@ -5,7 +5,11 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url(fondo-bosque.jpg);
+    background-image: url(/quiz/fondo-bosque.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
     color: #333;
 }
 .quiz-container {
