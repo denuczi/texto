@@ -89,7 +89,7 @@ a {
     text-decoration-color: #0000001a;
 }
 
-p { padding: 10px;
+p { margin: 10px;
     font-size: 1.2em;
     line-height: 1.8;
     color: #ffffff;
